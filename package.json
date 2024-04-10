@@ -27,8 +27,9 @@
     "to-regex-range": "^5.0.1"
   },
   "scripts": {
-    "compile:sass": "sass scss:assets/css"
-  },
+    "compile:sass": "sass --watch style.scss style.css"
+  }
+  ,
   "keywords": [
     "Bootstrap",
     "bootstrap-v5",
